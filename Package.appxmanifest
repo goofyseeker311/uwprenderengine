@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="f94d6830-4571-43d2-ae5b-9d807476b6e8"
+    Name="UWPRenderEngine"
     Publisher="CN=tpalomaki"
-    Version="1.0.0.0" />
+    Version="0.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="f94d6830-4571-43d2-ae5b-9d807476b6e8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>testproject</DisplayName>
+    <DisplayName>UWPRenderEngine</DisplayName>
     <PublisherDisplayName>tpalomaki</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,20 +30,16 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="testproject.App">
+      EntryPoint="UWPRenderEngine.App">
       <uap:VisualElements
-        DisplayName="testproject"
+        DisplayName="UWPRenderEngine"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="testproject"
+        Description="UWPRenderEngine"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
-
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
 </Package>
