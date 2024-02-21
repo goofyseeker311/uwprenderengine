@@ -5,5 +5,5 @@ Basic Universal Windows Platform C# project that runs on Windows 10/11 and Xbox 
 Install Visual Studio 2022 Community Edition at https://visualstudio.microsoft.com/vs/
 and open project as Universal Windows Platform C# project.
 
-To make a .appxbundle publishable package, right click on the project in the Solution Explorer -> Publish -> Create App Packages.
+To make .appxbundle publishable package file, right click on the project in the Solution Explorer -> Publish -> Create App Packages.
 Select Sideloading for independent distribution install package, sign with your publishing key, set desired publish options, create.
